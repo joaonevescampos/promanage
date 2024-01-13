@@ -16,11 +16,19 @@
 }
 
 .item a {
+<<<<<<< HEAD
     color: #FFF;
+=======
+    color: white;
+>>>>>>> 01ea8ba (atualização)
     text-decoration: none;
 }
 
 .item a:hover {
+<<<<<<< HEAD
     color: #FFBB33;
     text-decoration: none;
+=======
+    color: #ffbb33;
+>>>>>>> 01ea8ba (atualização)
 }
