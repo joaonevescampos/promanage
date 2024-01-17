@@ -5,9 +5,12 @@ import Container from '../layout/Container'
 import LinkButton from '../layout/LinkButton'
 import { useState, useEffect } from 'react'
 import ProjectCard from '../projects/ProjectCard'
+import Loading from '../layout/Loading'
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
+    const [removeLoading, setRemoveLoading] = useState(false)
+
     const location = useLocation()
     let message = ''
     if (location.state) {
@@ -15,19 +18,20 @@ const Projects = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/projects', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        })
-            .then((resp) => resp.json())
-            .then((data) => { 
-                setProjects(data)
-                console.log(data)
+        setTimeout(() => {
+            fetch('http://localhost:5000/projects', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
             })
-            .catch((err) => console.log(err))
-        
+                .then((resp) => resp.json())
+                .then((data) => { 
+                    setProjects(data)
+                    setRemoveLoading(true)
+                })
+                .catch((err) => console.log(err))
+        }, 3000)
     }, [])
 
     return (
@@ -48,6 +52,10 @@ const Projects = () => {
                         />
                     ))
                 }
+                {!removeLoading && <Loading />}
+                {removeLoading && projects.length === 0 && (
+                    <p>Não há projetos cadastrados!</p>
+                )}
             </Container>
         </div>
     )
