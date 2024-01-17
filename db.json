@@ -32,6 +32,50 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "5efb",
+      "name": "meu proj",
+      "budge": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "bbc9",
+      "name": "teste",
+      "budge": "500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "4740",
+      "name": "swd",
+      "budge": "500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "fdd0",
+      "name": "teste",
+      "budge": "333",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
