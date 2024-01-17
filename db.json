@@ -3,7 +3,7 @@
     {
       "id": "8861",
       "name": "João Victor",
-      "budge": "5565",
+      "budget": "5565",
       "category": {
         "id": "3",
         "name": "Design"
@@ -14,7 +14,7 @@
     {
       "id": "98dc",
       "name": "oi",
-      "budge": "666",
+      "budget": "666",
       "category": {
         "id": "4",
         "name": "Planejamento"
@@ -25,7 +25,7 @@
     {
       "id": "0c69",
       "name": "teste",
-      "budge": "222",
+      "budget": "222",
       "category": {
         "id": "4",
         "name": "Planejamento"
@@ -36,7 +36,7 @@
     {
       "id": "5efb",
       "name": "meu proj",
-      "budge": "10000",
+      "budget": "10000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -47,7 +47,7 @@
     {
       "id": "bbc9",
       "name": "teste",
-      "budge": "500",
+      "budget": "500",
       "category": {
         "id": "3",
         "name": "Design"
@@ -58,7 +58,7 @@
     {
       "id": "4740",
       "name": "swd",
-      "budge": "500",
+      "budget": "500",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -69,10 +69,21 @@
     {
       "id": "fdd0",
       "name": "teste",
-      "budge": "333",
+      "budget": "333",
       "category": {
         "id": "3",
         "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "ff97",
+      "name": "Novo Projeto",
+      "budget": "1000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []

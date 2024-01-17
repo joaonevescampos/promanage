@@ -53,10 +53,10 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
             <Input
                 type='number'
                 text='Orçamento'
-                name='budge'
+                name='budget'
                 placeholder='Orçamento total do projeto'   
                 handleOnChange={handleChange}
-                value={project.budge ? project.budge : ''}
+                value={project.budget ? project.budget : ''}
             />
             <Select name='category_id' text='Selecione a categoria'
                 options={categories}
