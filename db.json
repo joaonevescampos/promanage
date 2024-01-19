@@ -19,8 +19,15 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": []
+      "cost": 50,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "50",
+          "description": "teste",
+          "id": "80bb22c0-7669-4b50-be46-961630913ec5"
+        }
+      ]
     }
   ],
   "categories": [
