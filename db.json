@@ -12,32 +12,26 @@
       "services": []
     },
     {
-      "id": "34d3",
-      "name": "atualizei",
-      "budget": "300",
+      "id": "e657",
+      "name": "João Victor",
+      "budget": "1000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 250,
+      "cost": 500,
       "services": [
         {
           "name": "teste",
-          "cost": "50",
-          "description": "teste",
-          "id": "80bb22c0-7669-4b50-be46-961630913ec5"
+          "cost": "300",
+          "description": "Serviço",
+          "id": "1dfc7064-0dda-49f9-8c44-7b0bce302e7c"
         },
         {
-          "name": "teste 3",
-          "cost": "100",
+          "name": "Novo Projeto",
+          "cost": "200",
           "description": "teste",
-          "id": "eed56fb2-7ca6-418d-8c6d-ea843ad0dfd2"
-        },
-        {
-          "name": "teste 4",
-          "cost": "100",
-          "description": "teste 4",
-          "id": "af8a99ba-4933-4dc0-b120-9eb15523ceff"
+          "id": "0b40149a-0430-4276-a8cf-9414faef5cfc"
         }
       ]
     }
